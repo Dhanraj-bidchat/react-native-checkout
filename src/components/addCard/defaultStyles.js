@@ -21,15 +21,13 @@ const cardFieldContainer = {
 }
 const button = {
   ...touchableOpacityContainer,
-  marginTop: 20,
-  marginBottom: 20,
   borderBottomWidth: 1,
   borderTopWidth: 1,
   borderColor: grey,
 }
 
 const buttonText = {
-  color: pressableColor,
+  color: '#2E4D95',
   fontWeight: bold,
   textAlign: 'center',
 }
@@ -73,6 +71,7 @@ export default {
   },
   errorTextContainer: {
     height: 71,
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
