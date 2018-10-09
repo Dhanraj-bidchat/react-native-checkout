@@ -8,6 +8,7 @@ export const getCardToken = (cardNumber, expiryMonth, expiryYear, cvc, publicStr
     'card[exp_month]': expiryMonth,
     'card[exp_year]': expiryYear,
     'card[cvc]': cvc,
+    'card[currency]': 'usd',
   }
 
   const formBody = _.map(cardDetails, (value, key) => {
